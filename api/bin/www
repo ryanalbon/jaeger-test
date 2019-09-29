@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const http = require('http');
+
+const app = require('../src/app');
+const config = require('../src/config');
+const logger = require('../src/logger');
+
+http.createServer(app).listen(config.PORT, config.HOST, () => logger.info('App is up and running.'));
