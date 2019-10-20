@@ -6,6 +6,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-pino-logger": "^4.0.0",
+    "jaeger-client": "^3.17.0",
     "pino": "^5.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3",
+    "pino-pretty": "^3.2.1"
   }
 }
